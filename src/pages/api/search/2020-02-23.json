@@ -1,0 +1,315 @@
+{
+  "id": "v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1",
+  "skey": "c.3173435:c.3169070:20200223:0||com_en_web",
+  "lastUpdate": 1582126356,
+  "status": "processing",
+  "progress": 7,
+  "today": false,
+  "transportStatus": {
+    "train": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    },
+    "bus": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    },
+    "car": {
+      "priceVal": 35.049441881929,
+      "price": "35.05 $",
+      "count": 4,
+      "done": false,
+      "progress": 0
+    },
+    "plane": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    }
+  },
+  "price": {
+    "format": ":price :currencySymbol",
+    "currencySymbol": "$",
+    "currency": "USD"
+  },
+  "tz": {
+    "from": "Europe\/Rome",
+    "to": "Europe\/Rome"
+  },
+  "distance": 480,
+  "status_check": null,
+  "status_check_interval": 5,
+  "result": [
+    {
+      "id": "170d61977f73261d1e91d73f4aaf150a",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1700234031.5",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 40min",
+      "durationVal": 24000,
+      "expired": false,
+      "priceVal": 35.049441881929,
+      "price": "35.05 $",
+      "trait": {
+        "global": "cheapest"
+      },
+      "score": 2,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:9bd09fe91772078b8f183249ede80b42",
+          "transport": "car",
+          "priceVal": 35.049441881929,
+          "price": "35.05 $",
+          "departure": "Milano",
+          "departureStationId": "blablacar:45428882,9257315",
+          "arrival": "Cesano",
+          "arrivalStationId": "blablacar:42080129,12340793",
+          "duration": "6h 40min",
+          "durationVal": 24000,
+          "fromTime": "5:00pm",
+          "fromTimeVal": 1582473600,
+          "fromTimeISO8601": "2020-02-23T17:00:00+01:00",
+          "toTime": "11:40pm",
+          "toTimeVal": 1582497600,
+          "toTimeISO8601": "2020-02-23T23:40:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsIm1pbGFuby1jZXNhbm8tMTkyNDMzMDM4NSJd\/20200223\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/170d61977f73261d1e91d73f4aaf150a\/blablacar:1700234031.5\/en_us?t=1582126357",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/170d61977f73261d1e91d73f4aaf150a\/blablacar:1700234031.5\/en_us?t=1582126357",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    },
+    {
+      "id": "957388123b9bdc3247f3967640b9262a",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1300192043.5",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 20min",
+      "durationVal": 22800,
+      "expired": false,
+      "priceVal": 48.401610217902,
+      "price": "48.40 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:659c3d070080b789ea0c4d45e22ce774",
+          "transport": "car",
+          "priceVal": 48.401610217902,
+          "price": "48.40 $",
+          "departure": "Area Industriale",
+          "departureStationId": "blablacar:453825,925119",
+          "arrival": "Via Portuense, 1818, Fiumicino, RM",
+          "arrivalStationId": "blablacar:418004,123066",
+          "duration": "6h 20min",
+          "durationVal": 22800,
+          "fromTime": "1:00pm",
+          "fromTimeVal": 1582459200,
+          "fromTimeISO8601": "2020-02-23T13:00:00+01:00",
+          "toTime": "7:20pm",
+          "toTimeVal": 1582482000,
+          "toTimeISO8601": "2020-02-23T19:20:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsInNhbi1naXVsaWFuby1taWxhbmVzZS12aWEtcG9ydHVlbnNlLTE4MTgtZml1bWljaW5vLXJtLTE5MjY4NDA1NTAiXQ==\/20200223\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/957388123b9bdc3247f3967640b9262a\/blablacar:1300192043.5\/en_us?t=1582126357",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/957388123b9bdc3247f3967640b9262a\/blablacar:1300192043.5\/en_us?t=1582126357",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    },
+    {
+      "id": "7f4323e67ee2fe0367c206d72fa68197",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1600222039.5",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 20min",
+      "durationVal": 22800,
+      "expired": false,
+      "priceVal": 43.950887439244,
+      "price": "43.95 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:9c815e5d05b7c66a91b3ee0276f5eb95",
+          "transport": "car",
+          "priceVal": 43.950887439244,
+          "price": "43.95 $",
+          "departure": "Milan",
+          "departureStationId": "blablacar:45440358,9223863",
+          "arrival": "Rome",
+          "arrivalStationId": "blablacar:41839581,12463778",
+          "duration": "6h 20min",
+          "durationVal": 22800,
+          "fromTime": "4:00pm",
+          "fromTimeVal": 1582470000,
+          "fromTimeISO8601": "2020-02-23T16:00:00+01:00",
+          "toTime": "10:20pm",
+          "toTimeVal": 1582492800,
+          "toTimeISO8601": "2020-02-23T22:20:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsIm1pbGFuby1yb21hLTE5MjUwNDIyOTIiXQ==\/20200223\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/7f4323e67ee2fe0367c206d72fa68197\/blablacar:1600222039.5\/en_us?t=1582126357",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/7f4323e67ee2fe0367c206d72fa68197\/blablacar:1600222039.5\/en_us?t=1582126357",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    },
+    {
+      "id": "a44a91cea0c8a7491fa9e91a78b9a542",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1800002035",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 20min",
+      "durationVal": 22800,
+      "expired": false,
+      "priceVal": 38.943824313254,
+      "price": "38.94 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:3e8d47795ce9812d7ea5c10fcea508f3",
+          "transport": "car",
+          "priceVal": 38.943824313254,
+          "price": "38.94 $",
+          "departure": "Milano",
+          "departureStationId": "blablacar:45510134,9264195",
+          "arrival": "Rome",
+          "arrivalStationId": "blablacar:41901003,12501903",
+          "duration": "6h 20min",
+          "durationVal": 22800,
+          "fromTime": "6:00pm",
+          "fromTimeVal": 1582477200,
+          "fromTimeISO8601": "2020-02-23T18:00:00+01:00",
+          "toTime": "12:20am",
+          "toTimeVal": 1582500000,
+          "toTimeISO8601": "2020-02-24T00:20:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsIm1pbGFuby1yb21hLTE5MTQ1MjE2NjMiXQ==\/20200223\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/a44a91cea0c8a7491fa9e91a78b9a542\/blablacar:1800002035\/en_us?t=1582126357",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200223:en:com:USD:19000101:web:1\/a44a91cea0c8a7491fa9e91a78b9a542\/blablacar:1800002035\/en_us?t=1582126357",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    }
+  ],
+  "stations": {
+    "from": [],
+    "to": []
+  },
+  "passengers": {
+    "adult": 1
+  }
+}

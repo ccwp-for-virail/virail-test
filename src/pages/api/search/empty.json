@@ -1,0 +1,58 @@
+{
+  "id": "v2:c.3173435:c.3169070:20200221:en:com:USD:19000101:web:1",
+  "skey": "c.3173435:c.3169070:20200221:0||com_en_web",
+  "lastUpdate": 0,
+  "status": "processing",
+  "progress": 0,
+  "today": false,
+  "transportStatus": {
+    "train": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    },
+    "bus": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    },
+    "car": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    },
+    "plane": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    }
+  },
+  "price": {
+    "format": ":price :currencySymbol",
+    "currencySymbol": "$",
+    "currency": "USD"
+  },
+  "tz": {
+    "from": "Europe\/Rome",
+    "to": "Europe\/Rome"
+  },
+  "distance": 480,
+  "status_check": null,
+  "status_check_interval": 5,
+  "result": [],
+  "stations": {
+    "from": [],
+    "to": []
+  },
+  "passengers": {
+    "adult": 1
+  }
+}

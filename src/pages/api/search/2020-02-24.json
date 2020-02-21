@@ -1,0 +1,1652 @@
+{
+  "id": "v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1",
+  "skey": "c.3173435:c.3169070:20200224:0||com_en_web",
+  "lastUpdate": 1582126372,
+  "status": "processing",
+  "progress": 28,
+  "today": false,
+  "transportStatus": {
+    "train": {
+      "priceVal": 69.987615694391,
+      "price": "69.99 $",
+      "count": 3,
+      "done": false,
+      "progress": 0
+    },
+    "bus": {
+      "priceVal": 26.693209864999,
+      "price": "26.69 $",
+      "count": 14,
+      "done": false,
+      "progress": 0
+    },
+    "car": {
+      "priceVal": 40.056505007919,
+      "price": "40.06 $",
+      "count": 2,
+      "done": true,
+      "progress": 100
+    },
+    "plane": {
+      "priceVal": 0,
+      "price": 0,
+      "count": 0,
+      "done": false,
+      "progress": 0
+    }
+  },
+  "price": {
+    "format": ":price :currencySymbol",
+    "currencySymbol": "$",
+    "currency": "USD"
+  },
+  "tz": {
+    "from": "Europe\/Rome",
+    "to": "Europe\/Rome"
+  },
+  "distance": 480,
+  "status_check": null,
+  "status_check_interval": 5,
+  "result": [
+    {
+      "id": "e7e82b57698c41ce1aeba006ddc33f98",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2315134537.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "14h 30min",
+      "durationVal": 52200,
+      "expired": false,
+      "priceVal": 42.259612783354,
+      "price": "42.26 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:e8aabb2ea49c2465ccb04c9639b7d313",
+          "transport": "bus",
+          "priceVal": 42.259612783354,
+          "price": "42.26 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 1)",
+          "departureStationId": "flixbus:12138",
+          "arrival": "Porto San Giorgio (Largo Carducci)",
+          "arrivalStationId": "flixbus:31081",
+          "duration": "8h 15min",
+          "durationVal": 29700,
+          "fromTime": "11:15pm",
+          "fromTimeVal": 1582582500,
+          "fromTimeISO8601": "2020-02-24T23:15:00+01:00",
+          "toTime": "7:30am",
+          "toTimeVal": 1582612200,
+          "toTimeISO8601": "2020-02-25T07:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. N426",
+          "infoName": "Baltour S.r.l. N426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ4ODQ0MzE6MTIxMzg6MzEwODEiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:b176c40b7f98463dcf6d8719b5fe47a5",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Porto San Giorgio (Largo Carducci)",
+          "departureStationId": "flixbus:31081",
+          "arrival": "Rome Fiumicino Airport",
+          "arrivalStationId": "flixbus:15218",
+          "duration": "4h 25min",
+          "durationVal": 15900,
+          "fromTime": "9:20am",
+          "fromTimeVal": 1582618800,
+          "fromTimeISO8601": "2020-02-25T09:20:00+01:00",
+          "toTime": "1:45pm",
+          "toTimeVal": 1582634700,
+          "toTimeISO8601": "2020-02-25T13:45:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Pagliarini Bus S.r.l. 1553",
+          "infoName": "Pagliarini Bus S.r.l. 1553",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTY1NjA5NzE6MzEwODE6MTUyMTgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/e7e82b57698c41ce1aeba006ddc33f98\/flixbus:2315134537.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/e7e82b57698c41ce1aeba006ddc33f98\/flixbus:2315134537.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "fdfdf025a395e68d27e9cfbdea06b3e5",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1250191036",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 20min",
+      "durationVal": 22800,
+      "expired": false,
+      "priceVal": 40.056505007919,
+      "price": "40.06 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:94ee6ebe6af8326956e47d458005cb36",
+          "transport": "car",
+          "priceVal": 40.056505007919,
+          "price": "40.06 $",
+          "departure": "Cologno Monzese",
+          "departureStationId": "blablacar:45534302,9291094",
+          "arrival": "Rome",
+          "arrivalStationId": "blablacar:418101,12485242",
+          "duration": "6h 20min",
+          "durationVal": 22800,
+          "fromTime": "12:50pm",
+          "fromTimeVal": 1582545000,
+          "fromTimeISO8601": "2020-02-24T12:50:00+01:00",
+          "toTime": "7:10pm",
+          "toTimeVal": 1582567800,
+          "toTimeISO8601": "2020-02-24T19:10:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsImNvbG9nbm8tbW9uemVzZS1yb21hLTE4OTA5MzYzMDQiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/fdfdf025a395e68d27e9cfbdea06b3e5\/blablacar:1250191036\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/fdfdf025a395e68d27e9cfbdea06b3e5\/blablacar:1250191036\/en_us?t=1582126375",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    },
+    {
+      "id": "5347884798086d8858b00eed2fa93c94",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2315131538.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "14h",
+      "durationVal": 50400,
+      "expired": false,
+      "priceVal": 43.372293478019,
+      "price": "43.37 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:f93b0ef6b85790b11b7ff2fae4836f8f",
+          "transport": "bus",
+          "priceVal": 43.372293478019,
+          "price": "43.37 $",
+          "departure": "Milan (San Donato M3)",
+          "departureStationId": "flixbus:10128",
+          "arrival": "Naples (Metropark Centrale)",
+          "arrivalStationId": "flixbus:6218",
+          "duration": "9h 40min",
+          "durationVal": 34800,
+          "fromTime": "11:15pm",
+          "fromTimeVal": 1582582500,
+          "fromTimeISO8601": "2020-02-24T23:15:00+01:00",
+          "toTime": "8:55am",
+          "toTimeVal": 1582617300,
+          "toTimeISO8601": "2020-02-25T08:55:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Sulga S.r.l. N525",
+          "infoName": "Sulga S.r.l. N525",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTU1MjYxNDE6MTAxMjg6NjIxOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:4ed1cdcfcdfbc8298a9959b31e5033db",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Naples (Metropark Centrale)",
+          "departureStationId": "flixbus:6218",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "2h 30min",
+          "durationVal": 9000,
+          "fromTime": "10:45am",
+          "fromTimeVal": 1582623900,
+          "fromTimeISO8601": "2020-02-25T10:45:00+01:00",
+          "toTime": "1:15pm",
+          "toTimeVal": 1582632900,
+          "toTimeISO8601": "2020-02-25T13:15:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Della Penna autotrasporti S.p.A. 571",
+          "infoName": "Della Penna autotrasporti S.p.A. 571",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ1MzM0NjE6NjIxODoyODIyOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/5347884798086d8858b00eed2fa93c94\/flixbus:2315131538.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/5347884798086d8858b00eed2fa93c94\/flixbus:2315131538.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "5c7c63abb99919d3352e55e67a51facc",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "italo:1917231962.9",
+      "transport": "train",
+      "transportCodes": "train",
+      "transportIcon": "train",
+      "duration": "4h 2min",
+      "durationVal": 14520,
+      "expired": false,
+      "priceVal": 69.987615694391,
+      "price": "69.99 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:c1075af2290ba08c465beba6c7b60b4e",
+          "transport": "train",
+          "priceVal": 69.987615694391,
+          "price": "69.99 $",
+          "departure": "Milano Rho Fiera",
+          "departureStationId": "italo:rro",
+          "arrival": "Roma Termini",
+          "arrivalStationId": "italo:rmt",
+          "duration": "4h 2min",
+          "durationVal": 14520,
+          "fromTime": "7:17pm",
+          "fromTimeVal": 1582568220,
+          "fromTimeISO8601": "2020-02-24T19:17:00+01:00",
+          "toTime": "11:19pm",
+          "toTimeVal": 1582582740,
+          "toTimeISO8601": "2020-02-24T23:19:00+01:00",
+          "spider": "italo",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+            "code": "italo",
+            "name": "Italo"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "Italo"
+          },
+          "info": "Italo 9961",
+          "infoName": "Italo 9961",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/train\/WyJpdGFsbyIsImVuIiwiOTk2MSJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "search"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/5c7c63abb99919d3352e55e67a51facc\/italo:1917231962.9\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/5c7c63abb99919d3352e55e67a51facc\/italo:1917231962.9\/en_us?t=1582126375",
+      "provider": "Italo",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+      "co2Emission": 17.28
+    },
+    {
+      "id": "4d44410b798e101172654a747284d5e4",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2325134537.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "14h 20min",
+      "durationVal": 51600,
+      "expired": false,
+      "priceVal": 42.259612783354,
+      "price": "42.26 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:cf1de050d5c519a8f5fa60f2f3a1ddc0",
+          "transport": "bus",
+          "priceVal": 42.259612783354,
+          "price": "42.26 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 2)",
+          "departureStationId": "flixbus:12148",
+          "arrival": "Porto San Giorgio (Largo Carducci)",
+          "arrivalStationId": "flixbus:31081",
+          "duration": "8h 5min",
+          "durationVal": 29100,
+          "fromTime": "11:25pm",
+          "fromTimeVal": 1582583100,
+          "fromTimeISO8601": "2020-02-24T23:25:00+01:00",
+          "toTime": "7:30am",
+          "toTimeVal": 1582612200,
+          "toTimeISO8601": "2020-02-25T07:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. N426",
+          "infoName": "Baltour S.r.l. N426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ4ODQ0MzE6MTIxNDg6MzEwODEiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:b176c40b7f98463dcf6d8719b5fe47a5",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Porto San Giorgio (Largo Carducci)",
+          "departureStationId": "flixbus:31081",
+          "arrival": "Rome Fiumicino Airport",
+          "arrivalStationId": "flixbus:15218",
+          "duration": "4h 25min",
+          "durationVal": 15900,
+          "fromTime": "9:20am",
+          "fromTimeVal": 1582618800,
+          "fromTimeISO8601": "2020-02-25T09:20:00+01:00",
+          "toTime": "1:45pm",
+          "toTimeVal": 1582634700,
+          "toTimeISO8601": "2020-02-25T13:45:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Pagliarini Bus S.r.l. 1553",
+          "infoName": "Pagliarini Bus S.r.l. 1553",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTY1NjA5NzE6MzEwODE6MTUyMTgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/4d44410b798e101172654a747284d5e4\/flixbus:2325134537.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/4d44410b798e101172654a747284d5e4\/flixbus:2325134537.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "f9d1907d9807c982c39aab21add25f7d",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2310113043.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "12h 20min",
+      "durationVal": 44400,
+      "expired": false,
+      "priceVal": 48.935696951341,
+      "price": "48.94 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:4867a9c20471d8590182376441972d48",
+          "transport": "bus",
+          "priceVal": 48.935696951341,
+          "price": "48.94 $",
+          "departure": "Milan (San Donato M3)",
+          "departureStationId": "flixbus:10128",
+          "arrival": "Pescara",
+          "arrivalStationId": "flixbus:4048",
+          "duration": "7h 15min",
+          "durationVal": 26100,
+          "fromTime": "11:10pm",
+          "fromTimeVal": 1582582200,
+          "fromTimeISO8601": "2020-02-24T23:10:00+01:00",
+          "toTime": "6:25am",
+          "toTimeVal": 1582608300,
+          "toTimeISO8601": "2020-02-25T06:25:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Moffa N424",
+          "infoName": "Moffa N424",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ0OTgxMTE6MTAxMjg6NDA0OCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:6560d87c55cb43ed0ffa6a56c8176b7b",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Pescara",
+          "departureStationId": "flixbus:4048",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "3h 15min",
+          "durationVal": 11700,
+          "fromTime": "8:15am",
+          "fromTimeVal": 1582614900,
+          "fromTimeISO8601": "2020-02-25T08:15:00+01:00",
+          "toTime": "11:30am",
+          "toTimeVal": 1582626600,
+          "toTimeISO8601": "2020-02-25T11:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Mocci 552",
+          "infoName": "Mocci 552",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTkzNTA0MDE6NDA0ODoyODIyOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/f9d1907d9807c982c39aab21add25f7d\/flixbus:2310113043.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/f9d1907d9807c982c39aab21add25f7d\/flixbus:2310113043.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "f8b2d4d377936a5c9d5ae9618a74c902",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "distribusion:2300060026.99",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "7h",
+      "durationVal": 25200,
+      "expired": false,
+      "priceVal": 30.031251948992,
+      "price": "30.03 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:6cc104674c9779c45fd6d55a29e47b1b",
+          "transport": "bus",
+          "priceVal": 30.031251948992,
+          "price": "30.03 $",
+          "departure": "Milan Lampugnano Via Giulio Natta",
+          "departureStationId": "distribusion:itmilmlv",
+          "arrival": "Rome Tiburtina",
+          "arrivalStationId": "distribusion:itromrti",
+          "duration": "7h",
+          "durationVal": 25200,
+          "fromTime": "11:00pm",
+          "fromTimeVal": 1582581600,
+          "fromTimeISO8601": "2020-02-24T23:00:00+01:00",
+          "toTime": "6:00am",
+          "toTimeVal": 1582606800,
+          "toTimeISO8601": "2020-02-25T06:00:00+01:00",
+          "spider": "distribusion",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/buscenter.png",
+            "code": "buscenter",
+            "name": "BusCenter"
+          },
+          "providerSeller": {
+            "icon": "distribusion",
+            "name": "Distribusion"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/api.virail.net\/blank.html",
+          "infoType": "webview",
+          "suggestion": [
+            "aggregator",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/f8b2d4d377936a5c9d5ae9618a74c902\/distribusion:2300060026.99\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/f8b2d4d377936a5c9d5ae9618a74c902\/distribusion:2300060026.99\/en_us?t=1582126375",
+      "provider": "BusCenter",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/buscenter.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "a8b84d190c7585f49063d0afbc9b8787",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "italo:1517191975.9",
+      "transport": "train",
+      "transportCodes": "train",
+      "transportIcon": "train",
+      "duration": "4h 2min",
+      "durationVal": 14520,
+      "expired": false,
+      "priceVal": 84.452464725029,
+      "price": "84.45 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:77d8a252a1c8eed36662f48a26685426",
+          "transport": "train",
+          "priceVal": 84.452464725029,
+          "price": "84.45 $",
+          "departure": "Milano Rho Fiera",
+          "departureStationId": "italo:rro",
+          "arrival": "Roma Termini",
+          "arrivalStationId": "italo:rmt",
+          "duration": "4h 2min",
+          "durationVal": 14520,
+          "fromTime": "3:17pm",
+          "fromTimeVal": 1582553820,
+          "fromTimeISO8601": "2020-02-24T15:17:00+01:00",
+          "toTime": "7:19pm",
+          "toTimeVal": 1582568340,
+          "toTimeISO8601": "2020-02-24T19:19:00+01:00",
+          "spider": "italo",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+            "code": "italo",
+            "name": "Italo"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "Italo"
+          },
+          "info": "Italo 8933",
+          "infoName": "Italo 8933",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/train\/WyJpdGFsbyIsImVuIiwiODkzMyJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "search"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/a8b84d190c7585f49063d0afbc9b8787\/italo:1517191975.9\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/a8b84d190c7585f49063d0afbc9b8787\/italo:1517191975.9\/en_us?t=1582126375",
+      "provider": "Italo",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+      "co2Emission": 17.28
+    },
+    {
+      "id": "2966fd18589b57637cea2f69d48b6462",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "blablacar:1500212040.5",
+      "transport": "car",
+      "transportCodes": "car",
+      "transportIcon": "car",
+      "duration": "6h 20min",
+      "durationVal": 22800,
+      "expired": false,
+      "priceVal": 45.063568133909,
+      "price": "45.06 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:2fdbb52fc9cc10656ccfd77129d55381",
+          "transport": "car",
+          "priceVal": 45.063568133909,
+          "price": "45.06 $",
+          "departure": "Milan",
+          "departureStationId": "blablacar:4548701,9205478",
+          "arrival": "Rome",
+          "arrivalStationId": "blablacar:41842655,12586357",
+          "duration": "6h 20min",
+          "durationVal": 22800,
+          "fromTime": "3:00pm",
+          "fromTimeVal": 1582552800,
+          "fromTimeISO8601": "2020-02-24T15:00:00+01:00",
+          "toTime": "9:20pm",
+          "toTimeVal": 1582575600,
+          "toTimeISO8601": "2020-02-24T21:20:00+01:00",
+          "spider": "blablacar",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+            "code": "blablacar",
+            "name": "BlaBlaCar"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "BlaBlaCar"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/car\/WyJibGFibGFjYXIiLCJlbiIsIm1pbGFuby1yb21hLTE5MDI2NjY2MzgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/2966fd18589b57637cea2f69d48b6462\/blablacar:1500212040.5\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/2966fd18589b57637cea2f69d48b6462\/blablacar:1500212040.5\/en_us?t=1582126375",
+      "provider": "BlaBlaCar",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/blablacar.png",
+      "co2Emission": 27.84
+    },
+    {
+      "id": "0ee9dd2ce69832508b02b21ac839a6af",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:1615044542.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "12h 30min",
+      "durationVal": 45000,
+      "expired": false,
+      "priceVal": 47.823016256676,
+      "price": "47.82 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:94cd7f38714963a5b94ad8ea8a151a6d",
+          "transport": "bus",
+          "priceVal": 47.823016256676,
+          "price": "47.82 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 1)",
+          "departureStationId": "flixbus:12138",
+          "arrival": "Genoa (Fanti d'Italia\/Principe bus station)",
+          "arrivalStationId": "flixbus:3938",
+          "duration": "2h 55min",
+          "durationVal": 10500,
+          "fromTime": "4:15pm",
+          "fromTimeVal": 1582557300,
+          "fromTimeISO8601": "2020-02-24T16:15:00+01:00",
+          "toTime": "7:10pm",
+          "toTimeVal": 1582567800,
+          "toTimeISO8601": "2020-02-24T19:10:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. 508",
+          "infoName": "Baltour S.r.l. 508",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ5MjYxODE6MTIxMzg6MzkzOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:a9a34977311857936aabf853cdd80935",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Genoa (Fanti d'Italia\/Principe bus station)",
+          "departureStationId": "flixbus:3938",
+          "arrival": "Rome Fiumicino Airport",
+          "arrivalStationId": "flixbus:15218",
+          "duration": "7h 45min",
+          "durationVal": 27900,
+          "fromTime": "9:00pm",
+          "fromTimeVal": 1582574400,
+          "fromTimeISO8601": "2020-02-24T21:00:00+01:00",
+          "toTime": "4:45am",
+          "toTimeVal": 1582602300,
+          "toTimeISO8601": "2020-02-25T04:45:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Euro Booking N548",
+          "infoName": "Euro Booking N548",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ0NjE3MjE6MzkzODoxNTIxOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/0ee9dd2ce69832508b02b21ac839a6af\/flixbus:1615044542.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/0ee9dd2ce69832508b02b21ac839a6af\/flixbus:1615044542.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "3c40fb4ed2bd74c8bca1c59b073ab856",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:1605044542.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "12h 40min",
+      "durationVal": 45600,
+      "expired": false,
+      "priceVal": 47.823016256676,
+      "price": "47.82 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:2cdde66a625d63c6105dd5a8d27c49df",
+          "transport": "bus",
+          "priceVal": 47.823016256676,
+          "price": "47.82 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 2)",
+          "departureStationId": "flixbus:12148",
+          "arrival": "Genoa (Fanti d'Italia\/Principe bus station)",
+          "arrivalStationId": "flixbus:3938",
+          "duration": "3h 5min",
+          "durationVal": 11100,
+          "fromTime": "4:05pm",
+          "fromTimeVal": 1582556700,
+          "fromTimeISO8601": "2020-02-24T16:05:00+01:00",
+          "toTime": "7:10pm",
+          "toTimeVal": 1582567800,
+          "toTimeISO8601": "2020-02-24T19:10:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. 508",
+          "infoName": "Baltour S.r.l. 508",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ5MjYxODE6MTIxNDg6MzkzOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:a9a34977311857936aabf853cdd80935",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Genoa (Fanti d'Italia\/Principe bus station)",
+          "departureStationId": "flixbus:3938",
+          "arrival": "Rome Fiumicino Airport",
+          "arrivalStationId": "flixbus:15218",
+          "duration": "7h 45min",
+          "durationVal": 27900,
+          "fromTime": "9:00pm",
+          "fromTimeVal": 1582574400,
+          "fromTimeISO8601": "2020-02-24T21:00:00+01:00",
+          "toTime": "4:45am",
+          "toTimeVal": 1582602300,
+          "toTimeISO8601": "2020-02-25T04:45:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Euro Booking N548",
+          "infoName": "Euro Booking N548",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ0NjE3MjE6MzkzODoxNTIxOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/3c40fb4ed2bd74c8bca1c59b073ab856\/flixbus:1605044542.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/3c40fb4ed2bd74c8bca1c59b073ab856\/flixbus:1605044542.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "9fd7e3ab659b6a6af34a5ce679089d83",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "distribusion:1900051523.99",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "10h 15min",
+      "durationVal": 36900,
+      "expired": false,
+      "priceVal": 26.693209864999,
+      "price": "26.69 $",
+      "trait": {
+        "global": "cheapest"
+      },
+      "score": 2,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:54b785ea8dcd9548c4c4863f28f4200d",
+          "transport": "bus",
+          "priceVal": 26.693209864999,
+          "price": "26.69 $",
+          "departure": "Milan Lampugnano Via Giulio Natta",
+          "departureStationId": "distribusion:itmilmlv",
+          "arrival": "Rome Tiburtina",
+          "arrivalStationId": "distribusion:itromrti",
+          "duration": "10h 15min",
+          "durationVal": 36900,
+          "fromTime": "7:00pm",
+          "fromTimeVal": 1582567200,
+          "fromTimeISO8601": "2020-02-24T19:00:00+01:00",
+          "toTime": "5:15am",
+          "toTimeVal": 1582604100,
+          "toTimeISO8601": "2020-02-25T05:15:00+01:00",
+          "spider": "distribusion",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/buscenter.png",
+            "code": "buscenter",
+            "name": "BusCenter"
+          },
+          "providerSeller": {
+            "icon": "distribusion",
+            "name": "Distribusion"
+          },
+          "info": "",
+          "infoName": "",
+          "infoUrl": "https:\/\/api.virail.net\/blank.html",
+          "infoType": "webview",
+          "suggestion": [
+            "aggregator",
+            "booking"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/9fd7e3ab659b6a6af34a5ce679089d83\/distribusion:1900051523.99\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/9fd7e3ab659b6a6af34a5ce679089d83\/distribusion:1900051523.99\/en_us?t=1582126375",
+      "provider": "BusCenter",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/buscenter.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "c211980065b2ff1530c88868653a0ec7",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:1535061548.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "14h 40min",
+      "durationVal": 52800,
+      "expired": false,
+      "priceVal": 54.499100424663,
+      "price": "54.50 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:f889cae9b894001d683974d18fad784b",
+          "transport": "bus",
+          "priceVal": 54.499100424663,
+          "price": "54.50 $",
+          "departure": "Milan (San Donato M3)",
+          "departureStationId": "flixbus:10128",
+          "arrival": "L'Aquila",
+          "arrivalStationId": "flixbus:9598",
+          "duration": "8h 45min",
+          "durationVal": 31500,
+          "fromTime": "3:35pm",
+          "fromTimeVal": 1582554900,
+          "fromTimeISO8601": "2020-02-24T15:35:00+01:00",
+          "toTime": "12:20am",
+          "toTimeVal": 1582586400,
+          "toTimeISO8601": "2020-02-25T00:20:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. 1426",
+          "infoName": "Baltour S.r.l. 1426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTUyNTQzNDE6MTAxMjg6OTU5OCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:105e09c42c260b1adc65cedc8df835af",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "L'Aquila",
+          "departureStationId": "flixbus:9598",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "1h 45min",
+          "durationVal": 6300,
+          "fromTime": "4:30am",
+          "fromTimeVal": 1582601400,
+          "fromTimeISO8601": "2020-02-25T04:30:00+01:00",
+          "toTime": "6:15am",
+          "toTimeVal": 1582607700,
+          "toTimeISO8601": "2020-02-25T06:15:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Reali Francesco 1554",
+          "infoName": "Reali Francesco 1554",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTUzMzk1MDE6OTU5ODoyODIyOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/c211980065b2ff1530c88868653a0ec7\/flixbus:1535061548.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/c211980065b2ff1530c88868653a0ec7\/flixbus:1535061548.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "55cf32aa63283069ba32314cf0ddc028",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2325131037.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "13h 45min",
+      "durationVal": 49500,
+      "expired": false,
+      "priceVal": 42.259612783354,
+      "price": "42.26 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:cf1de050d5c519a8f5fa60f2f3a1ddc0",
+          "transport": "bus",
+          "priceVal": 42.259612783354,
+          "price": "42.26 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 2)",
+          "departureStationId": "flixbus:12148",
+          "arrival": "Porto San Giorgio (Largo Carducci)",
+          "arrivalStationId": "flixbus:31081",
+          "duration": "8h 5min",
+          "durationVal": 29100,
+          "fromTime": "11:25pm",
+          "fromTimeVal": 1582583100,
+          "fromTimeISO8601": "2020-02-24T23:25:00+01:00",
+          "toTime": "7:30am",
+          "toTimeVal": 1582612200,
+          "toTimeISO8601": "2020-02-25T07:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. N426",
+          "infoName": "Baltour S.r.l. N426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ4ODQ0MzE6MTIxNDg6MzEwODEiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:1acff2214432de65a0fdefdde468b6ce",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Porto San Giorgio (Largo Carducci)",
+          "departureStationId": "flixbus:31081",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "3h 50min",
+          "durationVal": 13800,
+          "fromTime": "9:20am",
+          "fromTimeVal": 1582618800,
+          "fromTimeISO8601": "2020-02-25T09:20:00+01:00",
+          "toTime": "1:10pm",
+          "toTimeVal": 1582632600,
+          "toTimeISO8601": "2020-02-25T13:10:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Pagliarini Bus S.r.l. 1553",
+          "infoName": "Pagliarini Bus S.r.l. 1553",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTY1NjA5NzE6MzEwODE6MjgyMjgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/55cf32aa63283069ba32314cf0ddc028\/flixbus:2325131037.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/55cf32aa63283069ba32314cf0ddc028\/flixbus:2325131037.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "a318cb95b0d0b33f9dcd5d4fc5d741d6",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2145131547.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "15h 30min",
+      "durationVal": 55800,
+      "expired": false,
+      "priceVal": 53.386419729998,
+      "price": "53.39 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:3fffe4718266662fc74f660d55c8940e",
+          "transport": "bus",
+          "priceVal": 53.386419729998,
+          "price": "53.39 $",
+          "departure": "Bergamo (Orio al Serio Airport - BGY)",
+          "departureStationId": "flixbus:10168",
+          "arrival": "Naples (Metropark Centrale)",
+          "arrivalStationId": "flixbus:6218",
+          "duration": "11h 10min",
+          "durationVal": 40200,
+          "fromTime": "9:45pm",
+          "fromTimeVal": 1582577100,
+          "fromTimeISO8601": "2020-02-24T21:45:00+01:00",
+          "toTime": "8:55am",
+          "toTimeVal": 1582617300,
+          "toTimeISO8601": "2020-02-25T08:55:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Sulga S.r.l. N525",
+          "infoName": "Sulga S.r.l. N525",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTU1MjYxNDE6MTAxNjg6NjIxOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:4ed1cdcfcdfbc8298a9959b31e5033db",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Naples (Metropark Centrale)",
+          "departureStationId": "flixbus:6218",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "2h 30min",
+          "durationVal": 9000,
+          "fromTime": "10:45am",
+          "fromTimeVal": 1582623900,
+          "fromTimeISO8601": "2020-02-25T10:45:00+01:00",
+          "toTime": "1:15pm",
+          "toTimeVal": 1582632900,
+          "toTimeISO8601": "2020-02-25T13:15:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Della Penna autotrasporti S.p.A. 571",
+          "infoName": "Della Penna autotrasporti S.p.A. 571",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ1MzM0NjE6NjIxODoyODIyOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/a318cb95b0d0b33f9dcd5d4fc5d741d6\/flixbus:2145131547.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/a318cb95b0d0b33f9dcd5d4fc5d741d6\/flixbus:2145131547.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "9b0658f4eed200a92219eb4d19b8b458",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:0009131043.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "13h 1min",
+      "durationVal": 46860,
+      "expired": false,
+      "priceVal": 48.935696951341,
+      "price": "48.94 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:8b0a03d27d22841488f4b693ffdb5167",
+          "transport": "bus",
+          "priceVal": 48.935696951341,
+          "price": "48.94 $",
+          "departure": "Milan (Lampugnano bus station)",
+          "departureStationId": "flixbus:1304",
+          "arrival": "Porto San Giorgio (Largo Carducci)",
+          "arrivalStationId": "flixbus:31081",
+          "duration": "7h 21min",
+          "durationVal": 26460,
+          "fromTime": "12:09am",
+          "fromTimeVal": 1582499340,
+          "fromTimeISO8601": "2020-02-24T00:09:00+01:00",
+          "toTime": "7:30am",
+          "toTimeVal": 1582525800,
+          "toTimeISO8601": "2020-02-24T07:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. N426",
+          "infoName": "Baltour S.r.l. N426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ4ODQzOTE6MTMwNDozMTA4MSJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:70652fb9f5ae630b66f08ffd3a014ce7",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Porto San Giorgio (Largo Carducci)",
+          "departureStationId": "flixbus:31081",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "3h 50min",
+          "durationVal": 13800,
+          "fromTime": "9:20am",
+          "fromTimeVal": 1582532400,
+          "fromTimeISO8601": "2020-02-24T09:20:00+01:00",
+          "toTime": "1:10pm",
+          "toTimeVal": 1582546200,
+          "toTimeISO8601": "2020-02-24T13:10:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Pagliarini Bus S.r.l. 1553",
+          "infoName": "Pagliarini Bus S.r.l. 1553",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTY1NjA4OTE6MzEwODE6MjgyMjgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/9b0658f4eed200a92219eb4d19b8b458\/flixbus:0009131043.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/9b0658f4eed200a92219eb4d19b8b458\/flixbus:0009131043.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "4717e4e7ae03b0838c1a98eb291affc9",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2230113043.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "13h",
+      "durationVal": 46800,
+      "expired": false,
+      "priceVal": 48.935696951341,
+      "price": "48.94 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:8c3fcfaecd256118ed2cf20054366eb6",
+          "transport": "bus",
+          "priceVal": 48.935696951341,
+          "price": "48.94 $",
+          "departure": "Milan (Lampugnano bus station)",
+          "departureStationId": "flixbus:1304",
+          "arrival": "Pescara",
+          "arrivalStationId": "flixbus:4048",
+          "duration": "7h 55min",
+          "durationVal": 28500,
+          "fromTime": "10:30pm",
+          "fromTimeVal": 1582579800,
+          "fromTimeISO8601": "2020-02-24T22:30:00+01:00",
+          "toTime": "6:25am",
+          "toTimeVal": 1582608300,
+          "toTimeISO8601": "2020-02-25T06:25:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Moffa N424",
+          "infoName": "Moffa N424",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ0OTgxMTE6MTMwNDo0MDQ4Il0=\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:6560d87c55cb43ed0ffa6a56c8176b7b",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Pescara",
+          "departureStationId": "flixbus:4048",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "3h 15min",
+          "durationVal": 11700,
+          "fromTime": "8:15am",
+          "fromTimeVal": 1582614900,
+          "fromTimeISO8601": "2020-02-25T08:15:00+01:00",
+          "toTime": "11:30am",
+          "toTimeVal": 1582626600,
+          "toTimeISO8601": "2020-02-25T11:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Mocci 552",
+          "infoName": "Mocci 552",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTkzNTA0MDE6NDA0ODoyODIyOCJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/4717e4e7ae03b0838c1a98eb291affc9\/flixbus:2230113043.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/4717e4e7ae03b0838c1a98eb291affc9\/flixbus:2230113043.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "2d4fbe6da8321dafe78634749dec3885",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "flixbus:2315131037.98",
+      "transport": "bus",
+      "transportCodes": "bus",
+      "transportIcon": "bus",
+      "duration": "13h 55min",
+      "durationVal": 50100,
+      "expired": false,
+      "priceVal": 42.259612783354,
+      "price": "42.26 $",
+      "trait": [],
+      "score": 4,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:e8aabb2ea49c2465ccb04c9639b7d313",
+          "transport": "bus",
+          "priceVal": 42.259612783354,
+          "price": "42.26 $",
+          "departure": "Milan (Malpensa Aeroporto Terminal 1)",
+          "departureStationId": "flixbus:12138",
+          "arrival": "Porto San Giorgio (Largo Carducci)",
+          "arrivalStationId": "flixbus:31081",
+          "duration": "8h 15min",
+          "durationVal": 29700,
+          "fromTime": "11:15pm",
+          "fromTimeVal": 1582582500,
+          "fromTimeISO8601": "2020-02-24T23:15:00+01:00",
+          "toTime": "7:30am",
+          "toTimeVal": 1582612200,
+          "toTimeISO8601": "2020-02-25T07:30:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Baltour S.r.l. N426",
+          "infoName": "Baltour S.r.l. N426",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTQ4ODQ0MzE6MTIxMzg6MzEwODEiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "booking"
+          ]
+        },
+        {
+          "id": "sg:1acff2214432de65a0fdefdde468b6ce",
+          "transport": "bus",
+          "priceVal": 0,
+          "price": null,
+          "departure": "Porto San Giorgio (Largo Carducci)",
+          "departureStationId": "flixbus:31081",
+          "arrival": "Rome Ciampino Airport",
+          "arrivalStationId": "flixbus:28228",
+          "duration": "3h 50min",
+          "durationVal": 13800,
+          "fromTime": "9:20am",
+          "fromTimeVal": 1582618800,
+          "fromTimeISO8601": "2020-02-25T09:20:00+01:00",
+          "toTime": "1:10pm",
+          "toTimeVal": 1582632600,
+          "toTimeISO8601": "2020-02-25T13:10:00+01:00",
+          "spider": "flixbus",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+            "code": "flixbus",
+            "name": "FlixBus"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "FlixBus"
+          },
+          "info": "Pagliarini Bus S.r.l. 1553",
+          "infoName": "Pagliarini Bus S.r.l. 1553",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/bus\/WyJmbGl4YnVzIiwiZW4iLCJkaXJlY3Q6OTY1NjA5NzE6MzEwODE6MjgyMjgiXQ==\/20200224\/en",
+          "infoType": "data",
+          "suggestion": null
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/2d4fbe6da8321dafe78634749dec3885\/flixbus:2315131037.98\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/2d4fbe6da8321dafe78634749dec3885\/flixbus:2315131037.98\/en_us?t=1582126375",
+      "provider": "FlixBus",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/flixbus.png",
+      "co2Emission": 15.36
+    },
+    {
+      "id": "1e80a0a2ecfc19db2fdd11432addd604",
+      "outwardId": null,
+      "multi": false,
+      "fallback": "italo:1617201967.9",
+      "transport": "train",
+      "transportCodes": "train",
+      "transportIcon": "train",
+      "duration": "4h 2min",
+      "durationVal": 14520,
+      "expired": false,
+      "priceVal": 75.551019167713,
+      "price": "75.55 $",
+      "trait": {
+        "global": "fastest"
+      },
+      "score": 3,
+      "hasAgreement": true,
+      "departureStationIATA": null,
+      "arrivalStationIATA": null,
+      "segments": [
+        {
+          "id": "sg:657d67a7265215c8356e9d283d58d8a4",
+          "transport": "train",
+          "priceVal": 75.551019167713,
+          "price": "75.55 $",
+          "departure": "Milano Rho Fiera",
+          "departureStationId": "italo:rro",
+          "arrival": "Roma Termini",
+          "arrivalStationId": "italo:rmt",
+          "duration": "4h 2min",
+          "durationVal": 14520,
+          "fromTime": "4:17pm",
+          "fromTimeVal": 1582557420,
+          "fromTimeISO8601": "2020-02-24T16:17:00+01:00",
+          "toTime": "8:19pm",
+          "toTimeVal": 1582571940,
+          "toTimeISO8601": "2020-02-24T20:19:00+01:00",
+          "spider": "italo",
+          "provider": {
+            "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+            "code": "italo",
+            "name": "Italo"
+          },
+          "providerSeller": {
+            "icon": null,
+            "name": "Italo"
+          },
+          "info": "Italo 8937",
+          "infoName": "Italo 8937",
+          "infoUrl": "https:\/\/www.virail.com\/virail\/carrier\/train\/WyJpdGFsbyIsImVuIiwiODkzNyJd\/20200224\/en",
+          "infoType": "data",
+          "suggestion": [
+            "direct",
+            "search"
+          ]
+        }
+      ],
+      "shareUrl": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/1e80a0a2ecfc19db2fdd11432addd604\/italo:1617201967.9\/en_us?t=1582126375",
+      "url": "https:\/\/www.virail.com\/deeplink\/v6\/c.3173435\/c.3169070\/v2:c.3173435:c.3169070:20200224:en:com:USD:19000101:web:1\/1e80a0a2ecfc19db2fdd11432addd604\/italo:1617201967.9\/en_us?t=1582126375",
+      "provider": "Italo",
+      "icon": "https:\/\/www.virail.com\/assets\/img\/company\/italo.png",
+      "co2Emission": 17.28
+    }
+  ],
+  "stations": {
+    "from": {
+      "flixbus:12138,flixbus:12148": "Malpensa Aeroporto",
+      "flixbus:10128": "Milan, San Donato",
+      "italo:rro": "Milano, Rho Fiera",
+      "distribusion:itmilmlv,flixbus:1304": "Milano, Lampugnano",
+      "flixbus:10168": "Orio al Serio, Bergamo Airport"
+    },
+    "to": {
+      "flixbus:15218": "Fiumicino Aeroporto",
+      "flixbus:28228": "Ciampino",
+      "italo:rmt": "Rome Termini",
+      "distribusion:itromrti": "Rome Tiburtina"
+    }
+  },
+  "passengers": {
+    "adult": 1
+  }
+}
